@@ -49,13 +49,13 @@
                 </p>
             </div>
             
+            <!-- Popup -->
+            <div class="image-popup" id="imagePopup">
+                <span class="close-btn" onclick="closePopup()">×</span>
+                <img id="popupImg" onclick="closePopup()">
+            </div>
             <div class="portfolio-grid">
                 
-                <!-- Popup -->
-                <div class="image-popup" id="imagePopup">
-                    <span class="close-btn" onclick="closePopup()">×</span>
-                    <img id="popupImg" onclick="closePopup()">
-                </div>
                 <!-- image-1 -->
                 <div class="portfolio-item" data-category="web" data-aos="fade-up">
 
@@ -202,19 +202,5 @@
 
     <script src="../js/main.js"></script>
 </body>
-
-<script>
-    function openPopup(src) {
-        const popup = document.getElementById("imagePopup");
-        const popupImg = document.getElementById("popupImg");
-
-        popupImg.src = src;
-        popup.classList.add("active");
-    }
-
-    function closePopup() {
-        document.getElementById("imagePopup").classList.remove("active");
-    }
-</script>
 
 </html>

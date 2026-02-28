@@ -619,3 +619,17 @@ window.addEventListener("load", () => {
         });
     }
 });
+
+// Gallery POPUP 
+    function openPopup(src) {
+        const popup = document.getElementById("imagePopup");
+        const popupImg = document.getElementById("popupImg");
+
+        popupImg.src = src;
+        popup.classList.add("active");
+    }
+
+    function closePopup() {
+        document.getElementById("imagePopup").classList.remove("active");
+    }
+    
