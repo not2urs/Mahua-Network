@@ -1015,7 +1015,11 @@ img {
     gap: 15px;
 }
 
-/* === PORTFOLIO SECTION === */
+/* === GALLERY SECTION === */
+.gallery{
+    padding: 20px;
+}
+
 .portfolio {
     padding: var(--section-padding);
     background: var(--bg-secondary);
@@ -1051,6 +1055,11 @@ img {
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     gap: 30px;
 }
 
