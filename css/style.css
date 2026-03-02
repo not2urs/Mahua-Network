@@ -119,6 +119,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px;
 }
 
 /* === UTILITIES === */
@@ -2784,7 +2785,7 @@ select option {
 /* gallery inside  */
 .image-slider {
     position: relative;
-    width: 98%;
+    width: 93%;
     /* height:800px; */
     overflow: hidden;
     margin: auto;
