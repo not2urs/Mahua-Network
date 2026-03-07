@@ -358,9 +358,9 @@ img {
     bottom: 0;
     z-index: 0;
     background:
-        radial-gradient(circle at 25% 25%, rgba(147, 51, 234, 0.20) 0%, transparent 55%),
-        radial-gradient(circle at 80% 70%, rgba(255, 221, 51, 0.22) 0%, transparent 60%),
-        linear-gradient(135deg, #140f2d, #2a1e5c);
+        radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.25) 0%, transparent 55%),
+        radial-gradient(circle at 80% 70%, rgba(14, 165, 233, 0.25) 0%, transparent 60%),
+        linear-gradient(135deg, #0f172a, #1e293b);
 
 }
 
@@ -1016,7 +1016,7 @@ img {
 }
 
 /* === GALLERY SECTION === */
-.gallery{
+.gallery {
     padding: 20px;
 }
 
@@ -1057,6 +1057,7 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
 }
+
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
@@ -1082,11 +1083,12 @@ img {
     cursor: pointer;
     transition: 0.3s ease;
 }
- /* =================== */
+
+/* =================== */
 .image-popup {
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1115,6 +1117,7 @@ img {
     color: white;
     cursor: pointer;
 }
+
 /* ================ */
 
 .portfolio-placeholder {
@@ -1204,18 +1207,19 @@ img {
     transform: scale(1);
 }
 
- 
+
 
 .view-more-wrapper {
     width: 100%;
     display: flex;
-    justify-content: center;   /* horizontal center */
+    justify-content: center;
+    /* horizontal center */
     align-items: center;
     margin-top: 50px;
 }
 
 .view-more-btn {
-  display: inline-block;
+    display: inline-block;
     padding: 8px 20px;
     background: rgba(99, 102, 241, 0.1);
     border: 1px solid rgba(99, 102, 241, 0.3);
@@ -1678,10 +1682,12 @@ select option {
 
 /* Logo Image */
 .footer-logo img {
-    width: 55px;              /* Size adjust kar sakte ho */
+    width: 55px;
+    /* Size adjust kar sakte ho */
     height: 55px;
     object-fit: contain;
-    border-radius: 8px;       /* Soft rounded look */
+    border-radius: 8px;
+    /* Soft rounded look */
 }
 
 /* Company Name */
@@ -2063,7 +2069,7 @@ select option {
     background: var(--bg-secondary);
     padding: 80px 20px;
     overflow: hidden;
-    
+
 }
 
 .app-container {
@@ -2074,7 +2080,7 @@ select option {
     gap: 60px;
     align-items: center;
     padding-top: 50px;
-    
+
 }
 
 /* LEFT CONTENT */
@@ -2083,8 +2089,8 @@ select option {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
- 
+
+
 
 }
 
@@ -2109,13 +2115,14 @@ select option {
     margin-bottom: 30px;
     text-align: center;
 }
-.ott-social{
+
+.ott-social {
     line-height: 4;
-     font-size: 18px;
+    font-size: 18px;
     font-weight: 600;
     color: #f0f0f0;
     margin-bottom: 20px;
-    
+
     /* justify-content: flex-start; */
 
 }
@@ -2785,10 +2792,11 @@ select option {
 .image-slider {
     position: relative;
     width: 98%;
-    /* height:800px; */
+    height:700px;
     overflow: hidden;
     margin: auto;
-    border-radius:10px ;
+    object-fit:contain;
+    border-radius: 10px;
 }
 
 .slider-wrapper {
@@ -2807,7 +2815,7 @@ select option {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     color: white;
     border: none;
     font-size: 30px;
@@ -2815,5 +2823,10 @@ select option {
     cursor: pointer;
 }
 
-.prev { left: 20px; }
-.next { right: 20px; }
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
