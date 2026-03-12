@@ -2792,13 +2792,8 @@ select option {
 /* gallery inside  */
 .image-slider {
     position: relative;
-<<<<<<< HEAD
     width: 98%;
     height:700px;
-=======
-    width: 93%;
-    /* height:800px; */
->>>>>>> 6a3ec5a4567886a311d19cb29430f7388dac4f9f
     overflow: hidden;
     margin: auto;
     object-fit:contain;
