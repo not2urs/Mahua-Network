@@ -235,7 +235,7 @@ img {
     z-index: 1000;
     padding: 20px 0;
     transition: all var(--transition-fast);
-    background: transparent;
+    background: rgb(17, 17, 22);
 }
 
 .navbar.scrolled {
