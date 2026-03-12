@@ -19,9 +19,9 @@
     --gradient-dark: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
 
     /* Dark Theme Colors */
-    --bg-primary: #0f0f1e;
-    --bg-secondary: #1a1a2e;
-    --bg-tertiary: #16213e;
+    --bg-primary: #000000;
+    --bg-secondary: #0a0707;
+    --bg-tertiary: #000000;
     --text-primary: #ffffff;
     --text-secondary: #b4b4c8;
     --text-muted: #6b7280;
@@ -359,9 +359,7 @@ img {
     bottom: 0;
     z-index: 0;
     background:
-        radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.25) 0%, transparent 55%),
-        radial-gradient(circle at 80% 70%, rgba(14, 165, 233, 0.25) 0%, transparent 60%),
-        linear-gradient(135deg, #0f172a, #1e293b);
+       #0a0707;
 
 }
 
