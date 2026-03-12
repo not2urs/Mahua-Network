@@ -642,7 +642,7 @@ img {
 
 .float-card i {
     font-size: 2rem;
-    color: #8d92c4;
+    color: hsl(233, 33%, 47%);
     text-shadow: 0 0 15px rgba(99, 102, 241, 0.7);
 }
 
