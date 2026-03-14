@@ -579,23 +579,23 @@ revealOnScroll(); // run on load
 
 
 
-// POPUP 
-window.addEventListener("load", () => {
-        setTimeout(() => {
-            document.getElementById("contactPopup").style.display = "flex";
-        }, 1400);
-      });
+// // POPUP 
+// window.addEventListener("load", () => {
+//         setTimeout(() => {
+//             document.getElementById("contactPopup").style.display = "flex";
+//         }, 1400);
+//       });
       
-      function openPopUp() {
-          document.getElementById("contactPopup").style.display = "flex";
-          document.getElementById("servicePopUp").style.display = "flex";
+//       function openPopUp() {
+//           document.getElementById("contactPopup").style.display = "flex";
+//           document.getElementById("servicePopUp").style.display = "flex";
           
-      }
+//       }
 
-    function closePopup() {
-        document.getElementById("contactPopup").style.display = "none";
-        document.getElementById("servicePopUp").style.display = "none";
-    }
+//     function closePopup() {
+//         document.getElementById("contactPopup").style.display = "none";
+//         document.getElementById("servicePopUp").style.display = "none";
+//     }
 
 
     document.addEventListener("DOMContentLoaded", function () {
