@@ -541,7 +541,7 @@ img {
         transform: rotateX(360deg) rotateY(360deg);
     }
 }
-
+/* 
 /* .cube-face {
     position: absolute;
     width: 300px;
@@ -576,7 +576,7 @@ img {
 
 .cube-face.bottom {
     transform: rotateX(-90deg) translateZ(150px);
-} */
+} */ */
 .cube-face {
     position: absolute;
     width: 300px;
@@ -2190,36 +2190,6 @@ select option {
         width: 45px;
         height: 45px;
     }
-
-    .cube-face.front {
-    transform: translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.back {
-    transform: rotateY(180deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.right {
-    transform: rotateY(90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.left {
-    transform: rotateY(-90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.top {
-    transform: rotateX(90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.bottom {
-    transform: rotateX(-90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
 }
 
 

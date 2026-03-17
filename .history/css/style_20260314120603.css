@@ -2061,8 +2061,8 @@ select option {
     }
 
     .cube-face {
-        width: 301px;
-        height: 301px;
+        width: 250px;
+        height: 250px;
     }
 
     .footer-content {
@@ -2190,36 +2190,6 @@ select option {
         width: 45px;
         height: 45px;
     }
-
-    .cube-face.front {
-    transform: translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.back {
-    transform: rotateY(180deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.right {
-    transform: rotateY(90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.left {
-    transform: rotateY(-90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.top {
-    transform: rotateX(90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
-
-.cube-face.bottom {
-    transform: rotateX(-90deg) translateZ(100px);
-    /* background-image: url("../img/cropped-Mahua-network-scaled-1-1536x1501.png"); */
-}
 }
 
 
