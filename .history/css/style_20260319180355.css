@@ -666,15 +666,15 @@ img {
 }
 
 .card-2 {
-    top: 94%;
-    right: -18%;
+    top: 50%;
+    right: -10%;
     animation-delay: -2s;
     color: rgb(118, 35, 86);
 }
 
 .card-3 {
-    bottom: -19%;
-    left: -33%;
+    bottom: -13%;
+    left: %;
     animation-delay: -4s;
     color: rgb(39, 8, 109);
 }

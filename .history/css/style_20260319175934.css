@@ -659,22 +659,22 @@ img {
 
 .card-1 {
     top: -31%;
-    left: -18%;
+    left: -10%;
     animation-delay: 0s;
     color: rgb(10, 78, 37);
 
 }
 
 .card-2 {
-    top: 94%;
-    right: -18%;
+    top: 50%;
+    right: -10%;
     animation-delay: -2s;
     color: rgb(118, 35, 86);
 }
 
 .card-3 {
-    bottom: -19%;
-    left: -33%;
+    bottom: 10%;
+    left: 10%;
     animation-delay: -4s;
     color: rgb(39, 8, 109);
 }
