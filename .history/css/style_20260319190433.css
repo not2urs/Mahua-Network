@@ -1288,7 +1288,6 @@ img {
 
 .view-more-btn:hover {
     background: rgb(34, 53, 135);
-    color:white;
     transform: translateY(-3px);
 }
 

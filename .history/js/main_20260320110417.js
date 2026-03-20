@@ -625,9 +625,9 @@ revealOnScroll(); // run on load
         popup.classList.add("active");
     }
 
-    function closePopup() {
-        document.getElementById("imagePopup").classList.remove("active");
-    }
+//     function closePopup() {
+    //     document.getElementById("imagePopup").classList.remove("active");
+    // }
     
 
 //     // gallery scrollbar 
