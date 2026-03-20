@@ -617,15 +617,15 @@ revealOnScroll(); // run on load
 });
 
 // Gallery POPUP 
-    function openPopup(src) {
-        const popup = document.getElementById("imagePopup");
-        const popupImg = document.getElementById("popupImg");
+//     function openPopup(src) {
+//         const popup = document.getElementById("imagePopup");
+//         const popupImg = document.getElementById("popupImg");
 
-        popupImg.src = src;
-        popup.classList.add("active");
-    }
+//         popupImg.src = src;
+//         popup.classList.add("active");
+//     }
 
-    function closePopup() {
+//     function closePopup() {
         document.getElementById("imagePopup").classList.remove("active");
     }
     

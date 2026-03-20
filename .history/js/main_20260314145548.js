@@ -617,53 +617,53 @@ revealOnScroll(); // run on load
 });
 
 // Gallery POPUP 
-    function openPopup(src) {
-        const popup = document.getElementById("imagePopup");
-        const popupImg = document.getElementById("popupImg");
+//     function openPopup(src) {
+//         const popup = document.getElementById("imagePopup");
+//         const popupImg = document.getElementById("popupImg");
 
-        popupImg.src = src;
-        popup.classList.add("active");
-    }
+//         popupImg.src = src;
+//         popup.classList.add("active");
+//     }
 
-    function closePopup() {
-        document.getElementById("imagePopup").classList.remove("active");
-    }
+//     function closePopup() {
+//         document.getElementById("imagePopup").classList.remove("active");
+//     }
     
 
 //     // gallery scrollbar 
-    document.addEventListener("DOMContentLoaded", function () {
+//     document.addEventListener("DOMContentLoaded", function () {
 
-    const slider = document.getElementById("sliderWrapper");
-    const images = slider.querySelectorAll("img");
+//     const slider = document.getElementById("sliderWrapper");
+//     const images = slider.querySelectorAll("img");
 
-    const prevBtn = document.getElementById("prevBtn");
-    const nextBtn = document.getElementById("nextBtn");
+//     const prevBtn = document.getElementById("prevBtn");
+//     const nextBtn = document.getElementById("nextBtn");
 
-    let index = 0;
+//     let index = 0;
 
-    function updateSlider() {
-        slider.style.transform = `translateX(-${index * 100}%)`;
-    }
+//     function updateSlider() {
+//         slider.style.transform = `translateX(-${index * 100}%)`;
+//     }
 
-    nextBtn.addEventListener("click", function () {
-        index++;
-        if (index >= images.length) index = 0;
-        updateSlider();
-    });
+//     nextBtn.addEventListener("click", function () {
+//         index++;
+//         if (index >= images.length) index = 0;
+//         updateSlider();
+//     });
 
-    prevBtn.addEventListener("click", function () {
-        index--;
-        if (index < 0) index = images.length - 1;
-        updateSlider();
-    });
+//     prevBtn.addEventListener("click", function () {
+//         index--;
+//         if (index < 0) index = images.length - 1;
+//         updateSlider();
+//     });
 
-    setInterval(() => {
-    index++;
-    if (index >= images.length) index = 0;
-    updateSlider();
-}, 3000);
+//     setInterval(() => {
+//     index++;
+//     if (index >= images.length) index = 0;
+//     updateSlider();
+// }, 3000);
 
-});
+// });
 
 window.addEventListener("scroll", function () {
   const navbar = document.getElementById("navbar");

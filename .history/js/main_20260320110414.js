@@ -625,7 +625,7 @@ revealOnScroll(); // run on load
         popup.classList.add("active");
     }
 
-    function closePopup() {
+//     function closePopup() {
         document.getElementById("imagePopup").classList.remove("active");
     }
     

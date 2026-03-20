@@ -1287,8 +1287,7 @@ img {
 }
 
 .view-more-btn:hover {
-    background: rgb(34, 53, 135);
-    color:white;
+    background: rgba(127, 128, 235, 0.1);
     transform: translateY(-3px);
 }
 
