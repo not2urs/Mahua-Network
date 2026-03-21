@@ -3047,7 +3047,7 @@ select option {
     height: 700px;
     overflow: hidden;
     margin: auto;
-    object-fit: contain;
+    object-fit:cover;
     border-radius: 10px;
 }
 
