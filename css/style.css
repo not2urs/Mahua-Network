@@ -3059,7 +3059,7 @@ select option {
 .slider-wrapper img {
     width: 100%;
     flex: 0 0 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 /* Buttons */
