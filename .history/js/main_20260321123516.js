@@ -336,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function () {
       behavior: "smooth",
     });
   });
-  }
+
   // ===================================
   // LOADING ANIMATION
   // ===================================

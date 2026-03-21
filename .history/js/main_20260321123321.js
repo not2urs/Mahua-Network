@@ -329,14 +329,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  if (scrollToTopBtn) {
   scrollToTopBtn.addEventListener("click", function () {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   });
-  }
+
   // ===================================
   // LOADING ANIMATION
   // ===================================

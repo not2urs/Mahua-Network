@@ -295,7 +295,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const newsletterForm = document.getElementById("newsletterForm");
 
-  if (newsletterForm) {
   newsletterForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -314,7 +313,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //     body: JSON.stringify({ email: email })
     // })
   });
-  }
+
   // ===================================
   // SCROLL TO TOP BUTTON
   // ===================================
@@ -329,14 +328,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  if (scrollToTopBtn) {
   scrollToTopBtn.addEventListener("click", function () {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   });
-  }
+
   // ===================================
   // LOADING ANIMATION
   // ===================================
@@ -636,10 +634,7 @@ revealOnScroll(); // run on load
     document.addEventListener("DOMContentLoaded", function () {
 
     const slider = document.getElementById("sliderWrapper");
-
-    // stop if slider not present on page
-    if (!slider) return;
-
+    
     const images = slider.querySelectorAll("img");
 
     const prevBtn = document.getElementById("prevBtn");
