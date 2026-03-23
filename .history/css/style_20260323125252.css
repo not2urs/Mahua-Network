@@ -1152,7 +1152,7 @@ img {
 .video-popup {
     display: none;
     position: fixed;
-    z-index: 9999;
+    z-index: 999;
     left: 0;
     top: 0;
     width: 100%;
@@ -1160,12 +1160,6 @@ img {
     background: rgba(0,0,0,0.8);
     text-align: center;
 }
-
-/* .video-align{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .video-popup video {
     max-width: 90%;
@@ -1176,10 +1170,10 @@ img {
 
 /* .video-popup .close-btn {
     position: absolute;
-    top: 90px;
-    right: 20px;
+    top: 20px;
+    right: 40px;
     font-size: 40px;
-    color: white;
+    color: #fff;
     cursor: pointer;
 } */
 

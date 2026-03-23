@@ -98,6 +98,6 @@ function closeVideoPopup() {
     const popupVideo = document.getElementById("popupVideo");
 
     popupVideo.pause();
-    popupVideo.src = ""; // reset
+    popupVideo.src = ""; // clear source so it resets
     videoPopup.style.display = "none";
 }
