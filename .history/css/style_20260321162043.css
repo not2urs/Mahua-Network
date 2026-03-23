@@ -3059,7 +3059,8 @@ select option {
 .slider-wrapper img {
     width: 80%;
     flex: 0 0 100%;
-    object-fit: fill;
+    object-fit: contain;
+    height: 180%;
 }
 
 /* Buttons */

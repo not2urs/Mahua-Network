@@ -3060,6 +3060,7 @@ select option {
     width: 80%;
     flex: 0 0 100%;
     object-fit: fill;
+    height: 180%;
 }
 
 /* Buttons */
